@@ -1,16 +1,80 @@
 html, body {
-    font-family: Arial, serif;
+    font-family: "Raleway";
     font-size: 16px;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
-table {
-    border-collapse: collapse;
+body {
+    height: 100%;
 }
-table.border td, table.border th {
-    padding: 5px;
-    border: 1px solid #c0c0c0;
+a{
+    text-decoration: none;
 }
-table.border th {
-    background: #e0e0e0;
+ul{
+    list-style-type: none;
 }
+li{
+    margin-top: 0px;
+}
+
+.user-info img {
+    height: 250px;
+    float: right;
+}
+.user-info {
+    width: 600px;
+    height: 250px;
+    background-color: #000000;
+    display: inline-block;
+}
+.user-info h1{
+    margin-top: 0px;
+    position: relative;
+    left: 15%;
+    top: 33%;
+    display: inline;
+    font-size: 30px;
+    color: #ffffff;
+}
+.user-info span{
+    margin: 0px;
+    position: relative;
+    left: 15%;
+    top: 33%;
+    display: inline;
+    font-weight: 900;
+    font-size: 30px;
+    color: #ffffff;
+}
+.contacts {
+    margin: 0px;
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+}
+.info-about, .info-edu {
+    margin-left: 45px;
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+.info-work, .info-lang {
+    margin-left: 30px;
+    width: 40%;
+    display: inline-block;
+}
+footer{
+    text-align: right;
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+footer li{
+    padding: 10px;
+    display: inline;
+}
+footer img{
+    width: 32px;
+}
+
