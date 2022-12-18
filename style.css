@@ -1,0 +1,80 @@
+html, body {
+    font-family: "Raleway";
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    height: 100%;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    margin-top: 0px;
+}
+
+.user-info img {
+    height: 250px;
+    float: right;
+}
+.user-info {
+    width: 600px;
+    height: 250px;
+    background-color: #000000;
+    display: inline-block;
+}
+.user-info h1{
+    margin-top: 0px;
+    position: relative;
+    left: 15%;
+    top: 33%;
+    display: inline;
+    font-size: 30px;
+    color: #ffffff;
+}
+.user-info span{
+    margin: 0px;
+    position: relative;
+    left: 15%;
+    top: 33%;
+    display: inline;
+    font-weight: 900;
+    font-size: 30px;
+    color: #ffffff;
+}
+.contacts {
+    margin: 0px;
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+}
+.info-about, .info-edu {
+    margin-left: 45px;
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+.info-work, .info-lang {
+    margin-left: 30px;
+    width: 40%;
+    display: inline-block;
+}
+footer{
+    text-align: right;
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+footer li{
+    padding: 10px;
+    display: inline;
+}
+footer img{
+    width: 32px;
+}
+
